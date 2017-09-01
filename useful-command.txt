@@ -11,3 +11,6 @@ $ mysql -u root -p
 mysql> GRANT ALL ON *.* to root@'ipaddress' IDENTIFIED BY 'mysql root password';
 mysql> FLUSH PRIVILEGES;
 mysql> exit
+
+How to list users of a certain DB
+select user from mysql.db where db='DB_NAME';

@@ -17,3 +17,9 @@ How to list users of a certain DB
 
 List all indexes on a table:
 > show index from [table];
+
+How to set MySQL Root password?
+$ mysqladmin -u root password YOURNEWPASSWORD
+
+How to Change MySQL Root password?
+$ mysqladmin -u root -p123456 password 'xyz123'

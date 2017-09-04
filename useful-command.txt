@@ -23,3 +23,6 @@ $ mysqladmin -u root password YOURNEWPASSWORD
 
 How to Change MySQL Root password?
 $ mysqladmin -u root -p123456 password 'xyz123'
+
+How to check all the running Process of MySQL server?
+$ mysqladmin -u root -p processlist
